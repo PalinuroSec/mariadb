@@ -2,7 +2,7 @@
 FROM debian:9
 MAINTAINER Lorenzo "Palinuro" Faletra (palinuro@linux.it)
 ENV DEBIAN_FRONTEND noninteractive
-ENV VERSION 10.1-exp2
+ENV VERSION 10.1-3.1
 
 # add our user and group first to make sure their IDs get assigned consistently, regardless of whatever dependencies get added
 RUN groupadd -r mysql && useradd -r -g mysql mysql
